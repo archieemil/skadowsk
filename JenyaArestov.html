@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html><head>
+      <title>Калькулятор arestovjenya11-a</title>
+<script language="Javascript">
+ function plus()
+{rezultat.value=znah_1.value-(-1)*znah_2.value;}
+function minus()
+{rezultat.value=znah_1.value-znah_2.value;}
+ function umn()
+{rezultat.value=znah_1.value*znah_2.value;}
+function del()
+{rezultat.value=znah_1.value/znah_2.value;}
+function sqrt()
+{rezultat.value=Math.sqrt(znah_1.value);}
+function ClearText()
+		{      znah_1.value="";
+           znah_2.value="";
+           rezultat.value=""
+		}
+</script>
+</head>
+<body>
+<font color="blue">
+<h3>!!Це найпростіший калькулятор!!</h3>
+<br><table border="5">
+<tbody><tr>
+<td>
+<font color="blue"> Введіть перше число
+</font></td>
+<td><input id="znah_1" size="18">
+</td>
+<td rowspan="5" valign="top">
+   <input type="button" value=" + " onclick="plus()"><br>
+   <input type="button" value=" - " onclick="minus()"><br>
+   <input type="button" value=" * " onclick="umn()"><br>
+   <input type="button" value=" / " onclick="del()"><br>
+   <input type="button" value=" sqrt " onclick="sqrt()">
+</td>
+</tr>
+<tr>
+<td><font color="blue"> Введіть друге число</font></td>
+<td>
+<input id="znah_2" size="18"></td>
+</tr>
+<tr>
+<td><b><font color="red">Результат:</font></b></td>
+<td>
+<input id="rezultat" size="18"></td>
+</tr>
+<tr>
+<td colspan="2" valign="top" align="right">
+<input type="reset" value="Очистити" onclick="ClearText()">
+</td>
+</tr><tr>
+</tr></tbody></table>
+<br><br>
+<br> <a href="JenyaArestov2.html"> <input type="button" value=" Обчислення площі прямоктного трикутника ">
+</font></body></html>
